@@ -1,0 +1,502 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#index_title {
+	height: 220px;
+	background-image: url(../img/title_bg.jpg);
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.body {
+	width: 1280px;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#index_main1 {
+	height: 215px;
+	width: 1280px;
+	background-color: #FFFFFF;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#index_main2 {
+	height: 390px;
+	width: 1280px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+.clear {
+	clear: both;
+}
+#index_mian1_left {
+	width: 250px;
+	height: 210px;
+	margin-left: 10px;
+	float: left;
+}
+#index_mian2_left {
+	width: 250px;
+	height: 300px;
+	margin-left: 10px;
+	float: left;
+}
+#index_mian2_right {
+	width: 250px;
+	height: 300px;
+	margin-left: 10px;
+	float: right;
+}
+
+
+#flash {
+	height: 75px;
+	width: 500px;
+	margin-left: 336px;
+}
+
+#index_title_01 {
+	height: 41px;
+}
+#index_title_02 {
+	height: 26px;
+}
+#index_title_03 {
+	height: 43px;
+}
+#index_title_04 {
+	height: 75px;
+}
+#index_title_05 {
+	height: 30px;
+	margin-top: 8px;
+}
+#shoushuo {
+	height: 23px;
+	margin-left: 890px;
+	width: 205px;
+}
+
+#index_menu {
+	height: 26px;
+	margin-left: 600px;
+}
+.index_menu {
+	height: 26px;
+	width: 85px;
+	margin-right: 10px;
+	float: left;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.index_menu_blue {
+	height: 26px;
+	width: 85px;
+	margin-right: 10px;
+	float: left;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-image: url(../img/landi.png);
+}
+.index_menu_c {
+	height: 26px;
+	width: 135px;
+	margin-right: 10px;
+	float: left;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px
+	color: #FFFFFF;
+}
+.index_menu_blue_c {
+	height: 26px;
+	width: 135px;
+	margin-right: 10px;
+	float: left;
+	line-height: 26px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-image: url(../img/landi_big.png);
+}
+#index_box1 {
+	height: 117px;
+}
+#index_box2 {
+	height: 107px;
+}
+#index_box3 {
+	height: 215px;
+	margin-left: 10px;
+}
+#index_box4 {
+	height: 200px;
+}
+#index_box5 {
+	height: 180px;
+}
+#index_box6 {
+	height: 380px;
+	margin-left: 10px;
+}
+#index_box7 {
+	height: 215px;
+}
+#index_box8 {
+	height: 375px;
+}
+#index_box9 {
+	height: 150px;
+}
+#title_mian1_middle2 {
+	width: 245px;
+	float: left;
+	height: 215px;
+	margin-left: 20px;
+}
+#title_mian1_znz {
+	width: 245px;
+	float: left;
+	height: 215px;
+	margin-left: 10px;
+}
+#title_mian1_znz222 {
+	width: 269px;
+	float: left;
+	height: 110px;
+	margin-left: 10px;
+}
+#ttt {
+	height: 40px;
+	padding-top: 10px;
+}
+.ttt_title {
+	height: 25px;
+}
+
+#main_img {
+	height: 140px;
+	width: 1000px;
+	background-image: url(../img/photo_img.gif);
+}
+
+#title_mian1_middle7 {
+	width: 245px;
+	float: left;
+	height: 380px;
+	margin-left: 20px;
+}
+
+.title {
+	height: 25px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #FF0000;
+	line-height: 25px;
+	font-family: "黑体";
+	color: #CC0000;
+	text-indent: 4px;
+	font-size: 16px;
+}
+.title2 {
+	height: 25px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #0066CC;
+	line-height: 25px;
+	font-family: "黑体";
+	color: #0066CC;
+	text-indent: 4px;
+	font-size: 16px;
+}
+.bar {
+	float: right;
+	width: 30px;
+	line-height: 25px;
+	font-size: 12px;
+	font-family: "宋体";
+	margin-right: 10px;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#index_box_main {
+	height: 80px;
+	margin-top: 10px;
+}
+#index_box_main5 {
+	height: 150px;
+	margin-top: 10px;
+}
+#index_box_main1 {
+	height: 160px;
+	margin-top: 10px;
+}
+#index_box_main2 {
+	height: 180px;
+	margin-top: 10px;
+}
+#index_box_main6 {
+	height: 340px;
+	margin-top: 10px;
+}
+#index_box_main7 {
+	height: 150px;
+	margin-top: 10px;
+}
+#index_box_main3 {
+	height: 180px;
+	margin-top: 10px;
+}
+#index_box_main4 {
+	height: 330px;
+	margin-top: 10px;
+}
+.text_right {
+	float: right;
+	font-size: 12px;
+	color: #999999;
+	margin-top:3px;
+}
+
+#index_main1 a {
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+}
+#mian_mian  a {
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: underline;
+}
+#index_main2  a {
+	font-size: 12px;
+	line-height: 20px;
+	text-decoration: none;
+}
+#index_main1  li {
+	list-style-type: none;
+	background-image: url(../img/dian.gif);
+	/*background-position: left;*/
+	background-repeat: no-repeat;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-indent: 20px;
+
+}
+#mian_mian   li {
+	list-style-type: none;
+	background-image: url(../img/dian.gif);
+	/*background-position: left;*/
+	background-repeat: no-repeat;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-indent: 20px;
+
+}
+#index_main2   li {
+	list-style-type: none;
+	background-image: url(../img/dian.gif);
+	/*background-position: left;*/
+	background-repeat: no-repeat;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-indent: 20px;
+
+}
+#title_mian1_middle {
+	float: left;
+	height: 215px;
+	width: 465px;
+}
+#title_mian2_middle {
+	float: left;
+	height: 380px;
+	width: 465px;
+}
+
+#index_main1 a:link {
+	color: #666666;
+}
+#index_main2  a:link {
+	color: #666666;
+}
+#index_main2  a:visited {
+	color: #666666;
+}
+#index_main1   a:visited {
+	color: #666666;
+}
+#index_main1 a:hover {
+	color: #FF0000;
+}
+#index_main2  a:hover {
+	color: #FF0000;
+}
+.title_title {
+	width: 80px;
+	float: left;
+}
+
+#index_main1 a:active {
+	color: #666666;
+}
+#index_main2  a:active {
+	color: #666666;
+}
+#pic_news {
+	height: 180px;
+	padding-top: 5px;
+}
+#big_menu_box {
+	height: 216px;
+	width: 269px;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+#big_menu_box2 {
+	height: 180px;
+	width: 269px;
+	float: left;
+	margin-left: 10px;
+}
+#big_menu_box_1 {
+	height: 37px;
+	background-image: url(../img/big_menu_01.jpg);
+}
+#big_menu_box_2 {
+	height: 45px;
+}
+#big_menu_box_3 {
+	height: 45px;
+}
+#big_menu_box_4 {
+	height: 45px;
+}
+#foot {
+	background-color: #333333;
+	height: 28px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	width: 1250px;
+	font-size: 12px;
+	line-height: 28px;
+	color: #CCCCCC;
+	text-align: right;
+	padding-right: 30px;
+}
+
+#big_menu_box_5 {
+	height: 44px;
+}
+#shousuo {
+	height: 23px;
+	width: 170px;
+	padding-left: 5px;
+	font-size: 12px;
+	line-height: 23px;
+	color: #999999;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+}
+#shousuoanniu {
+	background-image: url(../img/shousuo.gif);
+	height: 25px;
+	width: 25px;
+	float: left;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+}
+#shousuo_left {
+	height: 23px;
+	width: 170px;
+	float: left;
+}
+#shousuo_right {
+	height: 23px;
+	width: 23px;
+	float: left;
+}
+#daohang {
+	color: #999;
+	font-size: 14px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+#title_hongtou {
+	text-align: center;
+	font-size: 14px;
+	line-height: 50px;
+	padding-top: 60px;
+	font-variant: normal;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+}
+
+#houtou_timu {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#yinzhang {
+	height: 79px;
+	width: 160px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-image: url(../img/stmp_puschool.gif);
+	text-align: center;
+	padding-top: 80px;
+	font-size: 18px;
+}

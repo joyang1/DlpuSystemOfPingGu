@@ -1,0 +1,154 @@
+#line {
+	height: 2px;
+	background-color: #3366CC;
+}
+#mian_body {
+	width: 1000px;
+	margin: auto;
+}
+#mian_logo {
+	height: 74px;
+	background-image: url(../img/mian_logo.gif);
+	background-repeat: no-repeat;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	margin-bottom: 5px;
+}
+#mian_right_menu {
+	height: 16px;
+	font-size: 12px;
+	line-height: 16px;
+	width: 250px;
+	float: right;
+	margin-top: 40px;
+}
+.main_menu_yellow {
+	background-color: #F47D06;
+}
+.main_menu {
+
+}
+.heitimenuenglish {
+	font-size: 9px;
+	line-height: 12px;
+	text-align: center;
+	font-family: "黑体";
+}
+.heitimenuzi {
+	font-size: 14px;
+	text-align: center;
+	line-height: 16px;
+	font-family: "黑体";
+}
+#main_menu_left {
+	background-color: #FA9D41;
+	width: 700px;
+	float: left;
+}
+#shoushuo_box {
+	height: 30px;
+	width: 210px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+#mian_menu {
+	height: 55px;
+	background-color: #FA9D41;
+}
+#mian_mian {
+	margin-top: 5px;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #999999;
+}
+#mian_mian_left {
+	float: left;
+	width: 710px;
+	margin-top: 20px;
+	background-image: url(../img/title_wenjian.gif);
+	background-repeat: no-repeat;
+}
+#mian_mian_right {
+	height: 750px;
+	width: 280px;
+	float: right;
+	padding-top: 30px;
+}
+#weizhi {
+	font-size: 14px;
+	line-height: 16px;
+	color: #999999;
+	margin-top: 15px;
+	padding-bottom: 40px;
+	text-indent: 0px;
+}
+#title {
+	font-size: 24px;
+	font-family: "宋体";
+	color: #003399;
+	text-align: center;
+	margin-bottom: 10px;
+	text-indent: 0px;
+}
+
+
+
+#mian_logo a:link {
+	color: #666666;
+	text-decoration: none;
+}
+#mian_logo a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+#mian_logo a:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+#mian_logo a:active {
+	color: #999999;
+	text-decoration: none;
+}
+#mian_menu a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#mian_menu a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#mian_menu a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#mian_menu a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#laiyuan {
+	font-size: 12px;
+	/* [disabled]color: #999999; */
+	font-family: "宋体";
+	text-align: right;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "宋体";
+	text-indent: 28px;
+	color: #333333;
+	padding-left: 20px;
+}
+#foot2 {
+	height: 16px;
+	width: 985px;
+	background-color: #FFFFFF;
+	margin: auto;
+	font-size: 12px;
+	line-height: 16px;
+	text-align: right;
+	color: #999999;
+}

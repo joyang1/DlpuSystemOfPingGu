@@ -1,0 +1,21 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
+%>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<base href="<%=basePath%>">
+
+<title>大连工业大学教务处审核评估网</title>
+
+</head>
+
+<body>
+	<%
+		response.sendRedirect("shpg.jsp");
+	%>
+</body>
+</html>

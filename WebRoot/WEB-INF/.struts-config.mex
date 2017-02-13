@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/login.do" location="150,45" dimension="263,104" />
+  <StrutsActivity path="/logout.do" location="50,250" dimension="272,104" />
+  <StrutsActivity path="/del.do" location="950,250" dimension="250,104" />
+  <StrutsActivity path="/newsupload.do" location="350,450" dimension="304,104" />
+  <StrutsActivity path="/newschange.do" location="650,650" dimension="305,104" />
+  <StrutsActivity path="/noticeupload.do" location="50,850" dimension="284,104" />
+  <StrutsActivity path="/noticefileup.do" location="50,1050" dimension="301,104" />
+  <StrutsActivity path="/policyup.do" location="650,1050" dimension="279,104" />
+  <StrutsActivity path="/policychange.do" location="50,1250" dimension="306,104" />
+  <StrutsActivity path="/qualityupload.do" location="650,1250" dimension="312,104" />
+  <StrutsActivity path="/qualitychange.do" location="50,1450" dimension="313,104" />
+  <StrutsActivity path="/schoolfileupload.do" location="650,1450" dimension="328,104" />
+  <StrutsActivity path="/schoolfilechange.do" location="50,1650" dimension="329,104" />
+  <StrutsActivity path="/evaupload.do" location="650,1650" dimension="292,104" />
+  <StrutsActivity path="/evachange.do" location="50,1850" dimension="293,104" />
+  <StrutsActivity path="/bulletinupload.do" location="650,1850" dimension="314,104" />
+  <StrutsActivity path="/bulletinchange.do" location="50,2050" dimension="315,104" />
+  <StrutsActivity path="/myevaupload.do" location="1250,650" dimension="310,104" />
+  <StrutsActivity path="/myevachange.do" location="1250,850" dimension="311,104" />
+  <StrutsActivity path="/workupload.do" location="1250,1050" dimension="304,104" />
+  <StrutsActivity path="/workchange.do" location="1250,1250" dimension="305,104" />
+  <StrutsActivity path="/datasystemupload.do" location="1250,1450" dimension="339,104" />
+  <StrutsActivity path="/datasystemchange.do" location="1250,1650" dimension="340,104" />
+  <StrutsActivity path="/downfileupload.do" location="1250,1850" dimension="322,104" />
+  <StrutsActivity path="/downfilechange.do" location="650,2050" dimension="323,104" />
+  <StrutsActivity path="/materialupload.do" location="1250,2050" dimension="320,104" />
+  <StrutsActivity path="/materialchange.do" location="50,2250" dimension="321,104" />
+  <StrutsActivity path="/noticefiledel.do" location="950,2250" dimension="304,104" />
+  <StrutsActivity path="/tissuechange.do" location="50,2450" dimension="309,104" />
+  <StrutsActivity path="/noticechange.do" location="650,2450" dimension="311,104" />
+  <StrutsActivity path="/changepassword.do" location="1250,2450" dimension="332,104" />
+  <StrutsActivity path="/loging/loginpage.jsp" location="950,50" dimension="158,53" />
+  <StrutsActivity path="/administrator/admin.jsp" location="650,50" dimension="176,53" />
+  <StrutsActivity path="/index.jsp" location="650,250" dimension="88,53" />
+  <StrutsActivity path="/administrator/reply.jsp" location="50,450" dimension="169,53" />
+  <StrutsActivity path="/administrator/upload/uploadreply.jsp" location="50,650" dimension="256,53" />
+  <StrutsActivity path="/administrator/upload/noticefileupload.jsp" location="650,850" dimension="279,53" />
+  <StrutsActivity path="/administrator/upload/noticefilechange.jsp" location="1550,2250" dimension="280,53" />
+  <StrutsActivity path="/administrator/upload/changepassword.jsp" location="50,2650" dimension="285,53" />
+  <StrutsActivity path="/administrator/upload/newsupload.jsp" location="950,450" dimension="256,53" />
+  <StrutsActivity path="/administrator/upload/n" location="650,2250" dimension="173,53" />
+  <StrutsTransition id="/noticechange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="810,2554" />
+      <AbsolutePoint location="810,2574" />
+      <AbsolutePoint location="46,2574" />
+      <AbsolutePoint location="46,685" />
+      <AbsolutePoint location="50,685" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changepassword.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1394,2554" />
+      <AbsolutePoint location="1394,2567" />
+      <AbsolutePoint location="47,2567" />
+      <AbsolutePoint location="47,689" />
+      <AbsolutePoint location="50,689" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinchange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticeupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="118,850" />
+      <AbsolutePoint location="118,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workchange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1555,1297" />
+      <AbsolutePoint location="1581,1297" />
+      <AbsolutePoint location="1581,638" />
+      <AbsolutePoint location="242,638" />
+      <AbsolutePoint location="242,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changepassword.do,pwd,/administrator/upload/changepassword.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1421,2554" />
+      <AbsolutePoint location="1421,2676" />
+      <AbsolutePoint location="335,2676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/datasystemupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/datasystemchange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1425,1754" />
+      <AbsolutePoint location="1425,1774" />
+      <AbsolutePoint location="30,1774" />
+      <AbsolutePoint location="30,685" />
+      <AbsolutePoint location="50,685" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialchange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policychange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1332" />
+      <AbsolutePoint location="-85,1332" />
+      <AbsolutePoint location="-85,778" />
+      <AbsolutePoint location="58,778" />
+      <AbsolutePoint location="58,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfilechange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1650" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualitychange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/del.do,fail,/administrator/reply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1075,354" />
+      <AbsolutePoint location="1075,399" />
+      <AbsolutePoint location="134,399" />
+      <AbsolutePoint location="134,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefiledel.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1097,2354" />
+      <AbsolutePoint location="1097,2364" />
+      <AbsolutePoint location="46,2364" />
+      <AbsolutePoint location="46,689" />
+      <AbsolutePoint location="50,689" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfileupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policyup.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="789,1050" />
+      <AbsolutePoint location="789,999" />
+      <AbsolutePoint location="-25,999" />
+      <AbsolutePoint location="-25,676" />
+      <AbsolutePoint location="50,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newsupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,488" />
+      <AbsolutePoint location="296,488" />
+      <AbsolutePoint location="296,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="807,1850" />
+      <AbsolutePoint location="807,1803" />
+      <AbsolutePoint location="-172,1803" />
+      <AbsolutePoint location="-172,698" />
+      <AbsolutePoint location="50,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evaupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="796,1702" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newschange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,748" />
+      <AbsolutePoint location="268,748" />
+      <AbsolutePoint location="268,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialchange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualitychange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1102" />
+      <AbsolutePoint location="1244,1102" />
+      <AbsolutePoint location="1244,685" />
+      <AbsolutePoint location="306,685" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workchange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1402,1354" />
+      <AbsolutePoint location="1402,1364" />
+      <AbsolutePoint location="1226,1364" />
+      <AbsolutePoint location="1226,698" />
+      <AbsolutePoint location="306,698" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialchange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policychange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1272" />
+      <AbsolutePoint location="5,1272" />
+      <AbsolutePoint location="5,808" />
+      <AbsolutePoint location="88,808" />
+      <AbsolutePoint location="88,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualitychange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newsupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="502,554" />
+      <AbsolutePoint location="502,654" />
+      <AbsolutePoint location="306,654" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfilechange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evachange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfileupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1406,1954" />
+      <AbsolutePoint location="1406,1964" />
+      <AbsolutePoint location="45,1964" />
+      <AbsolutePoint location="45,689" />
+      <AbsolutePoint location="50,689" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tissuechange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,2502" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevaupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1395,650" />
+      <AbsolutePoint location="1395,624" />
+      <AbsolutePoint location="552,624" />
+      <AbsolutePoint location="552,676" />
+      <AbsolutePoint location="306,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualityupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfileupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newschange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="802,754" />
+      <AbsolutePoint location="802,778" />
+      <AbsolutePoint location="238,778" />
+      <AbsolutePoint location="238,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/datasystemupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfilechange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1650" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1400,2154" />
+      <AbsolutePoint location="1400,2164" />
+      <AbsolutePoint location="46,2164" />
+      <AbsolutePoint location="46,692" />
+      <AbsolutePoint location="50,692" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evaupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="796,1702" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evaupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="796,1702" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinchange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evachange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualitychange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticechange.do,fsuccess,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="805,2554" />
+      <AbsolutePoint location="805,2564" />
+      <AbsolutePoint location="40,2564" />
+      <AbsolutePoint location="40,676" />
+      <AbsolutePoint location="50,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevachange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newschange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="832,754" />
+      <AbsolutePoint location="832,808" />
+      <AbsolutePoint location="208,808" />
+      <AbsolutePoint location="208,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/datasystemchange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1590,1702" />
+      <AbsolutePoint location="1600,1702" />
+      <AbsolutePoint location="1600,640" />
+      <AbsolutePoint location="178,640" />
+      <AbsolutePoint location="178,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1902" />
+      <AbsolutePoint location="552,1902" />
+      <AbsolutePoint location="552,830" />
+      <AbsolutePoint location="178,830" />
+      <AbsolutePoint location="178,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1410,2154" />
+      <AbsolutePoint location="1410,2174" />
+      <AbsolutePoint location="45,2174" />
+      <AbsolutePoint location="45,686" />
+      <AbsolutePoint location="50,686" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfilechange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticeupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="148,850" />
+      <AbsolutePoint location="148,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfilechange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1650" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevaupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1415,650" />
+      <AbsolutePoint location="1415,198" />
+      <AbsolutePoint location="341,198" />
+      <AbsolutePoint location="341,457" />
+      <AbsolutePoint location="286,457" />
+      <AbsolutePoint location="286,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1402,1154" />
+      <AbsolutePoint location="1402,1164" />
+      <AbsolutePoint location="1238,1164" />
+      <AbsolutePoint location="1238,689" />
+      <AbsolutePoint location="306,689" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policychange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1302" />
+      <AbsolutePoint location="-55,1302" />
+      <AbsolutePoint location="-55,608" />
+      <AbsolutePoint location="58,608" />
+      <AbsolutePoint location="58,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefileup.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="242,1050" />
+      <AbsolutePoint location="242,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/datasystemupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evaupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="796,1702" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evachange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualityupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1420,2154" />
+      <AbsolutePoint location="1420,2184" />
+      <AbsolutePoint location="43,2184" />
+      <AbsolutePoint location="43,681" />
+      <AbsolutePoint location="50,681" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticeupload.do,success,/administrator/upload/noticefileupload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="334,876" />
+      <AbsolutePoint location="650,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tissuechange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,2502" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefileup.do,success,/administrator/upload/noticefileupload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="200,1102" />
+      <AbsolutePoint location="789,876" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevaupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1405,650" />
+      <AbsolutePoint location="1405,646" />
+      <AbsolutePoint location="316,646" />
+      <AbsolutePoint location="316,680" />
+      <AbsolutePoint location="306,680" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/datasystemchange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1415,1754" />
+      <AbsolutePoint location="1415,1764" />
+      <AbsolutePoint location="40,1764" />
+      <AbsolutePoint location="40,694" />
+      <AbsolutePoint location="50,694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1410,2050" />
+      <AbsolutePoint location="1410,2040" />
+      <AbsolutePoint location="48,2040" />
+      <AbsolutePoint location="48,697" />
+      <AbsolutePoint location="50,697" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfileupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/logout.do,success,/index.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="322,276" />
+      <AbsolutePoint location="650,276" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefileup.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="178,1050" />
+      <AbsolutePoint location="178,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changepassword.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1416,2450" />
+      <AbsolutePoint location="1416,2440" />
+      <AbsolutePoint location="48,2440" />
+      <AbsolutePoint location="48,696" />
+      <AbsolutePoint location="50,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinchange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policyup.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1132" />
+      <AbsolutePoint location="431,1132" />
+      <AbsolutePoint location="431,608" />
+      <AbsolutePoint location="178,608" />
+      <AbsolutePoint location="178,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1554,1102" />
+      <AbsolutePoint location="1571,1102" />
+      <AbsolutePoint location="1571,642" />
+      <AbsolutePoint location="252,642" />
+      <AbsolutePoint location="252,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfileupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1902" />
+      <AbsolutePoint location="1240,1902" />
+      <AbsolutePoint location="1240,676" />
+      <AbsolutePoint location="306,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newsupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,548" />
+      <AbsolutePoint location="148,548" />
+      <AbsolutePoint location="148,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualityupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policyup.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1102" />
+      <AbsolutePoint location="592,1102" />
+      <AbsolutePoint location="592,578" />
+      <AbsolutePoint location="88,578" />
+      <AbsolutePoint location="88,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,fail,/loging/loginpage.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="413,118" />
+      <AbsolutePoint location="1029,118" />
+      <AbsolutePoint location="1029,103" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfilechange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newschange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,718" />
+      <AbsolutePoint location="290,718" />
+      <AbsolutePoint location="290,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevachange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/evachange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policychange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="356,1302" />
+      <AbsolutePoint location="391,1302" />
+      <AbsolutePoint location="391,700" />
+      <AbsolutePoint location="306,700" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticechange.do,success,/administrator/upload/noticefileupload.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2502" />
+      <AbsolutePoint location="629,2502" />
+      <AbsolutePoint location="629,893" />
+      <AbsolutePoint location="650,893" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/qualityupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/del.do,success,/administrator/reply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1105,354" />
+      <AbsolutePoint location="1105,429" />
+      <AbsolutePoint location="164,429" />
+      <AbsolutePoint location="164,450" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfileupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1411,1850" />
+      <AbsolutePoint location="1411,1840" />
+      <AbsolutePoint location="47,1840" />
+      <AbsolutePoint location="47,696" />
+      <AbsolutePoint location="50,696" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/login.do,success,/administrator/admin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="413,76" />
+      <AbsolutePoint location="650,76" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/newsupload.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,518" />
+      <AbsolutePoint location="118,518" />
+      <AbsolutePoint location="118,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tissuechange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,2502" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefiledel.do,success,/administrator/upload/noticefilechange.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1102,2302" />
+      <AbsolutePoint location="1550,2250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfilechange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,1650" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/schoolfileupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1450" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevachange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticechange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="800,2554" />
+      <AbsolutePoint location="800,2564" />
+      <AbsolutePoint location="48,2564" />
+      <AbsolutePoint location="48,694" />
+      <AbsolutePoint location="50,694" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/changepassword.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1411,2554" />
+      <AbsolutePoint location="1411,2570" />
+      <AbsolutePoint location="45,2570" />
+      <AbsolutePoint location="45,682" />
+      <AbsolutePoint location="50,682" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevachange.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,850" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/materialchange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2250" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefiledel.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1107,2354" />
+      <AbsolutePoint location="1107,2374" />
+      <AbsolutePoint location="44,2374" />
+      <AbsolutePoint location="44,682" />
+      <AbsolutePoint location="50,682" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinupload.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="807,1954" />
+      <AbsolutePoint location="807,2031" />
+      <AbsolutePoint location="-130,2031" />
+      <AbsolutePoint location="-130,654" />
+      <AbsolutePoint location="50,654" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/policyup.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="929,1102" />
+      <AbsolutePoint location="1221,1102" />
+      <AbsolutePoint location="1221,369" />
+      <AbsolutePoint location="234,369" />
+      <AbsolutePoint location="234,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinchange.do,success,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="50,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/myevaupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1405,650" />
+      <AbsolutePoint location="1405,447" />
+      <AbsolutePoint location="264,447" />
+      <AbsolutePoint location="264,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfilechange.do,dataerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,2050" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/noticefileup.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="252,1050" />
+      <AbsolutePoint location="252,703" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bulletinupload.do,fileerror,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,1916" />
+      <AbsolutePoint location="467,1916" />
+      <AbsolutePoint location="467,630" />
+      <AbsolutePoint location="200,630" />
+      <AbsolutePoint location="200,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/tissuechange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="204,2502" />
+      <AbsolutePoint location="178,676" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/workchange.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1555,1307" />
+      <AbsolutePoint location="1591,1307" />
+      <AbsolutePoint location="1591,634" />
+      <AbsolutePoint location="232,634" />
+      <AbsolutePoint location="232,650" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/downfileupload.do,error,/administrator/upload/uploadreply.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1416,1954" />
+      <AbsolutePoint location="1416,1974" />
+      <AbsolutePoint location="42,1974" />
+      <AbsolutePoint location="42,682" />
+      <AbsolutePoint location="50,682" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

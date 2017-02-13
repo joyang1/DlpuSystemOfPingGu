@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="loginForm" type="com.dlpu.eva.struts.form.LoginForm" />
+		<form-bean name="newsuploadForm" type="com.dlpu.eva.struts.form.NewsuploadForm" />
+		<form-bean name="noticeForm" type="com.dlpu.eva.struts.form.NoticeForm" />
+		<form-bean name="policyupForm" type="com.dlpu.eva.struts.form.PolicyupForm" />
+		<form-bean name="qualityuploadForm" type="com.dlpu.eva.struts.form.QualityuploadForm" />
+		<form-bean name="schoolfileuploadForm"
+			type="com.dlpu.eva.struts.form.SchoolfileuploadForm" />
+		<form-bean name="evauploadForm" type="com.dlpu.eva.struts.form.EvauploadForm" />
+		<form-bean name="bulletinuploadForm"
+			type="com.dlpu.eva.struts.form.BulletinuploadForm" />
+		<form-bean name="myevauploadForm" type="com.dlpu.eva.struts.form.MyevauploadForm" />
+		<form-bean name="workuploadForm" type="com.dlpu.eva.struts.form.WorkuploadForm" />
+		<form-bean name="datasystemuploadForm"
+			type="com.dlpu.eva.struts.form.DatasystemuploadForm" />
+		<form-bean name="downfileuploadForm"
+			type="com.dlpu.eva.struts.form.DownfileuploadForm" />
+		<form-bean name="materialuploadForm"
+			type="com.dlpu.eva.struts.form.MaterialuploadForm" />
+		<form-bean name="noticefileuploadForm"
+			type="com.dlpu.eva.struts.form.NoticefileuploadForm" />
+		<form-bean name="tissuechangeForm" type="com.dlpu.eva.struts.form.TissuechangeForm" />
+		<form-bean name="changepasswordForm"
+			type="com.dlpu.eva.struts.form.ChangepasswordForm" />
+
+	</form-beans>
+	<global-exceptions />
+
+	<action-mappings>
+		<action name="loginForm" path="/login"
+			type="com.dlpu.eva.struts.action.LoginAction" validate="false"
+			cancellable="true">
+			<forward name="success" path="/administrator/admin.jsp"
+				redirect="true" />
+			<forward name="fail" path="/loging/loginpage.jsp?error=true"
+				redirect="true" />
+		</action>
+		<action path="/logout" type="com.dlpu.eva.struts.action.LogoutAction"
+			cancellable="true">
+			<forward name="success" path="/index.jsp" redirect="true" />
+		</action>
+		<action path="/del" type="com.dlpu.eva.struts.action.DelAction"
+			validate="false" cancellable="true">
+			<forward name="fail" path="/administrator/reply.jsp?type=false"
+				redirect="true" />
+			<forward name="success" path="/administrator/reply.jsp?type=true"
+				redirect="true" />
+		</action>
+
+		<action name="newsuploadForm" path="/newsupload"
+			type="com.dlpu.eva.struts.action.NewsuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+
+		<action name="newsuploadForm" path="/newschange"
+			type="com.dlpu.eva.struts.action.NewschangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="noticeForm" path="/noticeupload"
+			type="com.dlpu.eva.struts.action.NoticeupAction" cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success" path="/administrator/upload/noticefileupload.jsp?"
+				redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+
+		</action>
+		<action name="noticefileuploadForm" path="/noticefileup"
+			type="com.dlpu.eva.struts.action.NoticefileupAction" cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/noticefileupload.jsp?type=true"
+				redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+
+		<action name="policyupForm" path="/policyup"
+			type="com.dlpu.eva.struts.action.PolicyupAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="policyupForm" path="/policychange"
+			type="com.dlpu.eva.struts.action.PolicychangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="qualityuploadForm" path="/qualityupload" scope="request"
+			type="com.dlpu.eva.struts.action.QualityuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="qualityuploadForm" path="/qualitychange" scope="request"
+			type="com.dlpu.eva.struts.action.QualitychangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="schoolfileuploadForm" path="/schoolfileupload"
+			type="com.dlpu.eva.struts.action.SchoolfileuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="schoolfileuploadForm" path="/schoolfilechange"
+			scope="request" type="com.dlpu.eva.struts.action.SchoolfilechangeAction"
+			validate="false" cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="evauploadForm" path="/evaupload" scope="request"
+			type="com.dlpu.eva.struts.action.EvauploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="evauploadForm" path="/evachange" scope="request"
+			type="com.dlpu.eva.struts.action.EvachangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="bulletinuploadForm" path="/bulletinupload" scope="request"
+			type="com.dlpu.eva.struts.action.BulletinuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="bulletinuploadForm" path="/bulletinchange" scope="request"
+			type="com.dlpu.eva.struts.action.BulletinchangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="myevauploadForm" path="/myevaupload" scope="request"
+			type="com.dlpu.eva.struts.action.MyevauploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="myevauploadForm" path="/myevachange" scope="request"
+			type="com.dlpu.eva.struts.action.MyevachangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="workuploadForm" path="/workupload" scope="request"
+			type="com.dlpu.eva.struts.action.WorkuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="workuploadForm" path="/workchange" scope="request"
+			type="com.dlpu.eva.struts.action.WorkchangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="datasystemuploadForm" path="/datasystemupload"
+			scope="request" type="com.dlpu.eva.struts.action.DatasystemuploadAction"
+			validate="false" cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="datasystemuploadForm" path="/datasystemchange"
+			scope="request" type="com.dlpu.eva.struts.action.DatasystemchangeAction"
+			validate="false" cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="downfileuploadForm" path="/downfileupload" scope="request"
+			type="com.dlpu.eva.struts.action.DownfileuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="downfileuploadForm" path="/downfilechange" scope="request"
+			type="com.dlpu.eva.struts.action.DownfilechangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="materialuploadForm" path="/materialupload" scope="request"
+			type="com.dlpu.eva.struts.action.MaterialuploadAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="materialuploadForm" path="/materialchange" scope="request"
+			type="com.dlpu.eva.struts.action.MaterialchangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action path="/noticefiledel" type="com.dlpu.eva.struts.action.NoticefiledelAction"
+			validate="false" cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success" path="/administrator/upload/noticefilechange.jsp?"
+				redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="tissuechangeForm" path="/tissuechange" scope="request"
+			type="com.dlpu.eva.struts.action.TissuechangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="fileerror"
+				path="/administrator/upload/uploadreply.jsp?type=file" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+		</action>
+		<action name="noticeForm" path="/noticechange" scope="request"
+			type="com.dlpu.eva.struts.action.NoticechangeAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success" path="/administrator/upload/noticefileupload.jsp?"
+				redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+			<forward name="fsuccess"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+		</action>
+		<action name="changepasswordForm" path="/changepassword" scope="request"
+			type="com.dlpu.eva.struts.action.ChangepasswordAction" validate="false"
+			cancellable="true">
+			<forward name="error"
+				path="/administrator/upload/uploadreply.jsp?type=error" redirect="true" />
+			<forward name="success"
+				path="/administrator/upload/uploadreply.jsp?type=true" redirect="true" />
+			<forward name="dataerror"
+				path="/administrator/upload/uploadreply.jsp?type=data" redirect="true" />
+			<forward name="pwd"
+				path="/administrator/upload/changepassword.jsp?type=pwd" redirect="true" />	
+		</action>
+
+	</action-mappings>
+	<message-resources parameter="com.dlpu.eva.struts.ApplicationResources" />
+</struts-config>
+
