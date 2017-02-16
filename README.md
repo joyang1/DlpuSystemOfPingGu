@@ -3,8 +3,8 @@
 [![Build Status](https://travis-ci.org/joyang1/DlpuSystemOfPingGu.svg?branch=master)](https://travis-ci.org/joyang1/DlpuSystemOfPingGu)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/164fd518c314417e896b3de494ab75df)](https://www.codacy.com/app/joyang1/DlpuSystemOfPingGu?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joyang1/DlpuSystemOfPingGu&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/164fd518c314417e896b3de494ab75df)](https://www.codacy.com/app/joyang1/DlpuSystemOfPingGu?utm_source=github.com&utm_medium=referral&utm_content=joyang1/DlpuSystemOfPingGu&utm_campaign=Badge_Coverage)
-//[![Download](https://api.bintray.com/packages/bintray/jcenter/com.joyang1%3Ajoyang1-gson/images/download.svg)](https://bintray.com/bintray/jcenter/com.joyang1%3Ajoyang1-gson/_latestVersion)
-[![Maven Central](https://img.shields.io/maven-central/v/com.joyang1/joyang1-gson.svg)]()
+<!--[![Download](https://api.bintray.com/packages/bintray/jcenter/com.joyang1%3Ajoyang1-gson/images/download.svg)](https://bintray.com/bintray/jcenter/com.joyang1%3Ajoyang1-gson/_latestVersion)-->
+<!--[![Maven Central](https://img.shields.io/maven-central/v/com.joyang1/joyang1-gson.svg)]()-->
 [![Software License][ico-license]](LICENSE.md)
 
 ## Install
@@ -51,7 +51,7 @@ If you discover any security related issues, please using the issue tracker.
 
 The GPL2.0 License. Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/joyang1/DlpuSystemOfPingGu.svg?style=flat-square
+<!--[ico-version]: https://img.shields.io/packagist/v/joyang1/DlpuSystemOfPingGu.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/joyang1/DlpuSystemOfPingGu.svg?style=flat-square
 
@@ -61,5 +61,5 @@ The GPL2.0 License. Please see [License File](LICENSE.md) for more information.
 [link-code-quality]: https://scrutinizer-ci.com/g/joyang1/DlpuSystemOfPingGu
 [link-downloads]: https://packagist.org/packages/joyang1/DlpuSystemOfPingGu
 [link-author]: https://github.com/joyang1
-[link-contributors]: ../../contributors
+[link-contributors]: ../../contributors-->
 
