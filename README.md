@@ -1,8 +1,11 @@
 # ****大学评估系统
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Build Status](https://travis-ci.org/joyang1/DlpuSystemOfPingGu.svg?branch=master)](https://travis-ci.org/pubnub/java)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/164fd518c314417e896b3de494ab75df)](https://www.codacy.com/app/PubNub/java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pubnub/java&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/164fd518c314417e896b3de494ab75df)](https://www.codacy.com/app/PubNub/java?utm_source=github.com&utm_medium=referral&utm_content=pubnub/java&utm_campaign=Badge_Coverage)
+[![Download](https://api.bintray.com/packages/bintray/jcenter/com.pubnub%3Apubnub-gson/images/download.svg)](https://bintray.com/bintray/jcenter/com.pubnub%3Apubnub-gson/_latestVersion)
+[![Maven Central](https://img.shields.io/maven-central/v/com.pubnub/pubnub-gson.svg)]()
 [![Software License][ico-license]](LICENSE.md)
-[![Total Downloads][ico-downloads]][link-downloads]
 
 ## Install
 
@@ -33,7 +36,7 @@ Tests unavailable.
 
 ## Contributing
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](CONTRIBUT.md) for details.
 
 ## Security
 
@@ -52,7 +55,7 @@ The GPL2.0 License. Please see [License File](LICENSE.md) for more information.
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/joyang1/DlpuSystemOfPingGu.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/joyang1/DlpuSystemOfPingGu
+[link-packagist]: https://travis-ci.org/joyang1/DlpuSystemOfPingGu
 [link-travis]: https://travis-ci.org/joyang1/DlpuSystemOfPingGu
 [link-scrutinizer]: https://scrutinizer-ci.com/g/joyang1/DlpuSystemOfPingGu/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/joyang1/DlpuSystemOfPingGu
