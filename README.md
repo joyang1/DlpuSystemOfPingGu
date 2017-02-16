@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/joyang1/DlpuSystemOfPingGu.svg?branch=master)](https://travis-ci.org/joyang1/DlpuSystemOfPingGu)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/164fd518c314417e896b3de494ab75df)](https://www.codacy.com/app/joyang1/DlpuSystemOfPingGu?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=joyang1/DlpuSystemOfPingGu&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/164fd518c314417e896b3de494ab75df)](https://www.codacy.com/app/joyang1/DlpuSystemOfPingGu?utm_source=github.com&utm_medium=referral&utm_content=joyang1/DlpuSystemOfPingGu&utm_campaign=Badge_Coverage)
-[![Download](https://api.bintray.com/packages/bintray/jcenter/com.joyang1%3Apubnub-gson/images/download.svg)](https://bintray.com/bintray/jcenter/com.joyang1%3Ajoyang1-gson/_latestVersion)
+[![Download](https://api.bintray.com/packages/bintray/jcenter/com.joyang1%3Ajoyang1-gson/images/download.svg)](https://bintray.com/bintray/jcenter/com.joyang1%3Ajoyang1-gson/_latestVersion)
 [![Maven Central](https://img.shields.io/maven-central/v/com.joyang1/joyang1-gson.svg)]()
 [![Software License][ico-license]](LICENSE.md)
 
