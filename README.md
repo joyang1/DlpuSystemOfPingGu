@@ -41,22 +41,22 @@ If you discover any security related issues, please using the issue tracker.
 
 ## Credits
 
-- [Xu42](https://github.com/joyang1)
+- [Tommy Yang](https://github.com/joyang1)
 - [All Contributors](https://github.com/joyang1/DlpuSystemOfPingGu/contributors)
 
 ## License
 
 The GPL2.0 License. Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/xu42/dlpu-news.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/joyang1/DlpuSystemOfPingGu.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/xu42/dlpu-news.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/joyang1/DlpuSystemOfPingGu.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/xu42/dlpu-news
-[link-travis]: https://travis-ci.org/xu42/dlpu-news
-[link-scrutinizer]: https://scrutinizer-ci.com/g/xu42/dlpu-news/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/xu42/dlpu-news
-[link-downloads]: https://packagist.org/packages/xu42/dlpu-news
-[link-author]: https://github.com/xu42
+[link-packagist]: https://packagist.org/packages/joyang1/DlpuSystemOfPingGu
+[link-travis]: https://travis-ci.org/joyang1/DlpuSystemOfPingGu
+[link-scrutinizer]: https://scrutinizer-ci.com/g/joyang1/DlpuSystemOfPingGu/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/joyang1/DlpuSystemOfPingGu
+[link-downloads]: https://packagist.org/packages/joyang1/DlpuSystemOfPingGu
+[link-author]: https://github.com/joyang1
 [link-contributors]: ../../contributors
 
