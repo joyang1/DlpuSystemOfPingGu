@@ -7,7 +7,7 @@ notification:
     recipients:
       - tingzai.yang@gmail.com
     on_success: always
-    on_failure: always
+    on_failure: never
 
 cache:
   directories:
